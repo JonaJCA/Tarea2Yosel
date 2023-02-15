@@ -1,0 +1,6 @@
+<h3>Números Agregados</h3>
+<hr>
+<button *ngFor="let item of numeros"
+        (click)="mostrar(item)">
+    {{item.digito}}
+</button>
